@@ -6,14 +6,17 @@ import AppMyComponent from './App_myComponent.jsx'
 import App from './App.jsx'
 import './index.css'
 import './Counter.css'
-
+import App_onChange from './App_onChange.jsx'
+import App_ColorPicker from './App_ColorPicker.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <AppProps /> */}
     {/* <AppOnClick/> */}
     {/* <AppMyComponent/>
-     */}
+     */}      
+     {/* <App_onChange/> */}
 
-     <App/>
+      <App_ColorPicker/>
+
   </React.StrictMode>,
 )
