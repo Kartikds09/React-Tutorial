@@ -9,6 +9,10 @@ import "./Counter.css";
 import App_onChange from "./App_onChange.jsx";
 import App_ColorPicker from "./App_ColorPicker.jsx";
 
+import App_updObjState from './App_updObjState.jsx'
+
+import App_updArrState from './App_updArrState.jsx'
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* <AppProps /> */}
@@ -16,8 +20,15 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <AppMyComponent/>
      */}
     {/* <App_onChange/> */}
-
     {/* <App_ColorPicker/> */}
     {/* <App_counter/> */}
+
+      {/* <App_updObjState/> */}
+      <App_updArrState/>
+
+
+
+
+
   </React.StrictMode>
 );
