@@ -19,6 +19,11 @@ import ToDoList from './ToDo-List/toDoList.jsx'
 
 // import App_useEffect from './useEffect/App_useEffect.jsx'
 import App_height_width from './useEffect/App_height_width.jsx'
+import App_Clock from './Clock/App_clock.jsx'
+// import "./Clock/Clock.css"
+
+import App_useContext from './useContext/useContext.jsx'
+import "./useContext/style_context.css"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -36,8 +41,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       {/* <App_updObjArrCars/> */}
 
       {/* <ToDoList/> */}
-      <App_height_width/>
+      {/* <App_Clock/> */}
 
+      <App_useContext/>
 
   </React.StrictMode>
 );
